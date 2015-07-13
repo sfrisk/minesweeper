@@ -4,5 +4,5 @@ function Game()
 };
 
 Game.prototype.init = function(){
-	game.board.draw();
+	game.board.init();
 }
